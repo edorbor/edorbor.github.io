@@ -1,1 +1,117 @@
+<!DOCTYPE html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet"> 
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('http://eskipaper.com/images/cool-illusion-wallpaper-1.jpg');
+      background-size: cover;
+      color: yellow;
+    }
+    a {
+      color: yellow;
+      font-family: 'Roboto Condensed', sans-serif;
+    }
+    h1 {
+      font-size: 40px;
+      font-family: 'Roboto Condensed', sans-serif;
+      
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 600px;
+      width:187
+      
+    }
+    ul {
+      padding: 15px;
+      background: rgba(0,0,255,0.5);
+      font-family: 'Righteous', cursive;
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+      font-family: 'Righteous', cursive;
+    }
+    article {
+      max-width: 900px;
+      padding: 30px;
+      margin: 0 auto;
+      color: blue;
+      font-family: 'Righteous', cursive;
+      background: yellow;
+    }
+    body {
+        background: purple;
+        text-align: center;
+        font-family: 'Righteous', cursive;
+        color: yellow;
+      }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 32px;
+        padding: 7px;
+        font-family: 'Righteous', cursive;
+        text-align: center;
+      }
+      li {
+        padding: 7px;
+        display: yellow;
+        font-family: 'Roboto Condensed', sans-serif;
+      }
+      p {
+      font-size: 40px;
+      font-family: 'Righteous', cursive;
+      }
+      input {
+        border: 0;
+        padding: 10px;
+        font-size: 30px;
+        
+      }
+      input[type="submit"] {
+        background: purple;
+        color: yellow;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://bezunta.files.wordpress.com/2012/02/bartsimpsonfashion.jpg">
+    <h1>Edward's Blog</h1>
+    <ul>
+      <li><a href="https://www.thefactsite.com/2011/04/21-facts-about-bart-simpson.html" target="_blank">About Bart Simpson</a></li>
+      <li><a href="http://simpsons.wikia.com/wiki/Bart_Simpson/Quotes" target="_blank">Familiar Quotes</a></li>
+      <li><a href="http://simpsons.wikia.com/wiki/The_Boys_of_Bummer" target="_blank">Bad Times</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Edward's Celeb News</h2>
+    <p>Rapper Cardi B recently released a new song with performer, singer, and dancer Bruno Mars (Finesse). They reportedly released the song January 3rd, 2018 at 11:37 PM. It hit iTunes with a roar which was amazing she recently posted on her instagram teasing if she should drop the song. Quavo and Nicki released the music video She For Keeps.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>What Has Edward Been Up To?</h2>
+    <p> Edward has been craving linden butterscotch cookies for the past few days. He has been spending his money a lot of cookies and waiting afterschool to go get more. Edward was recently excited because he found out that his teacher Ms. Hamilton has moved the finals to next week Tuesday 8:20 A.M. sharp.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Trips Edward Plans To Go On?</h2>
+    <p> Edward discussed with his older sister over Easter break to visit a very special place of a lifetime which really ment a lot to him because he actually needed abreak from all the celeb news. He also wishes to go to England one day with his family to see amazing sites and travel throughout Europe reportedly the trip is going to cost 13,500 dollars but him and his family are willing to pay it to take this great vacation</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Thank You For Liking!");
+    });
+  </script>
+  <p>Hello! I'm Edward Dorbor, a student at JGS</p>
+  <input type="email" placeholder="Your email" id="PhoneNumber">
+  <input type="submit" event onClick="alert(PhoneNumber.value)">
+</body>
 
